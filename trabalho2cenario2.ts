@@ -93,7 +93,7 @@ class HourlyEmployee extends Employee
 }
 
 enum Status{
-    occupied ,
+    occupied = 0,
     maintenance,
     available
 }
